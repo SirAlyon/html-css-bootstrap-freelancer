@@ -1,0 +1,57 @@
+:root{
+    --bootstrap-blue: rgba(14, 56, 181, 1);
+    --bootstrap-black: rgba(20, 15, 15, 1);
+    --bootstrap-green: rgba(26, 188, 156, 1);
+    --bootstrap-lightblue: rgba(28, 131, 193, 1);
+    --bootstrap-aqua: rgba(30, 164, 182, 1);
+    --bootstrap-darkblue: rgba(44, 62, 80, 1);
+    --bootstrap-gray: rgba(58, 84, 109, 1);
+    --bootstrap-red: rgba(186, 75, 99, 1);
+    --bootstrap-beige: rgba(204, 178, 163, 1);
+}
+
+/* Utility */
+
+.bg-darkblue{
+    background-color: var(--bootstrap-darkblue);
+}
+
+.bg-green{
+    background-color: var(--bootstrap-green);
+}
+
+.bg-lightblue{
+    background-color: var(--bootstrap-lightblue);
+}
+
+.bg-gray{
+    background-color: var(--bootstrap-gray);
+}
+
+.bg-blue{
+    background-color: var(--bootstrap-blue);
+}
+
+.bg-beige{
+    background-color: var(--bootstrap-beige);
+}
+
+.bg-black{
+    background-color: var(--bootstrap-black);
+}
+
+.bg-aqua{
+    background-color: var(--bootstrap-aqua);
+}
+
+.bg-red{
+    background-color: var(--bootstrap-red);
+}
+
+.height-1{
+    height: 100px;
+}
+
+.height-2{
+    height: 500px;
+}
