@@ -48,26 +48,12 @@
     background-color: var(--bootstrap-red);
 }
 
-.px_5{
-    padding-right: 5rem;
-    padding-left: 5rem;
-}
-
-
-.height-1{
-    height: 100px;
-}
-
-.height-2{
-    height: 500px;
+.color-green{
+    color: var(--bootstrap-green);
 }
 
 
 /* Header */
-
-#avatar{
-    height: 120px;
-}
 
 .star>hr{
     width: 10%;
