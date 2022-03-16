@@ -10,6 +10,12 @@
     --bootstrap-beige: rgba(204, 178, 163, 1);
 }
 
+/* Common */
+
+a{
+    cursor: pointer;
+}
+
 /* Utility */
 
 .bg-darkblue{
