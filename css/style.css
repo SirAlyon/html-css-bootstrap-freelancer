@@ -55,3 +55,17 @@
 .height-2{
     height: 500px;
 }
+
+
+/* Header */
+
+#avatar{
+    height: 120px;
+}
+
+.star>hr{
+    width: 10%;
+    height: 2px;
+    border: 1px solid white;
+
+}
