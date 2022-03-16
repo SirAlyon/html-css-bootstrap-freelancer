@@ -48,6 +48,14 @@
     background-color: var(--bootstrap-red);
 }
 
+.pr_6{
+    padding-right: 6rem;
+}
+
+.pl_6{
+    padding-left: 6rem;
+}
+
 .height-1{
     height: 100px;
 }
@@ -67,3 +75,4 @@
     width: 10%;
     opacity: 1;
 } 
+
