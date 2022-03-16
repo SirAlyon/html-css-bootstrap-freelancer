@@ -65,7 +65,5 @@
 
 .star>hr{
     width: 10%;
-    height: 2px;
-    border: 1px solid white;
-
-}
+    opacity: 1;
+} 
