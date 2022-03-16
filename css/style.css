@@ -48,13 +48,11 @@
     background-color: var(--bootstrap-red);
 }
 
-.pr_6{
-    padding-right: 6rem;
+.px_5{
+    padding-right: 5rem;
+    padding-left: 5rem;
 }
 
-.pl_6{
-    padding-left: 6rem;
-}
 
 .height-1{
     height: 100px;
@@ -76,3 +74,16 @@
     opacity: 1;
 } 
 
+.bold{ /* Perchè la funziona di bootstrap non funziona? */
+    font-weight: bold;
+}
+
+.social-circle{
+    width: 40px;
+    aspect-ratio: 1 / 1;
+    border: 1px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -70,40 +70,40 @@
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="bg-red rounded d-flex justify-content-center">
-                        <img height="200px" src="./img/cabin.png" alt="">
+                    <div class="card">
+                        <img class="rounded card-img" src="./img/cabin.png" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="bg-aqua rounded d-flex justify-content-center">
-                        <img height="200px" src="./img/cake.png" alt="">
+                    <div class="card">
+                        <img class="rounded" src="./img/cake.png" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="bg-black rounded d-flex justify-content-center">
-                        <img height="200px" src="./img/circus.png" alt="">
+                    <div class="card">
+                        <img class="rounded" src="./img/circus.png" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="bg-lightblue rounded d-flex justify-content-center">
-                        <img height="200px" src="./img/game.png" alt="">
+                    <div class="card">
+                        <img class="rounded" src="./img/game.png" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="bg-blue rounded d-flex justify-content-center">
-                        <img height="200px" src="./img/safe.png" alt="">
+                    <div class="card">
+                        <img class="rounded" src="./img/safe.png" alt="">
                     </div>
                 </div>
                 <div class="col-12 col-md-6 col-lg-4">
-                    <div class="bg-beige rounded d-flex justify-content-center">
-                        <img height="200px" src="./img/submarine.png" alt="">
+                    <div class="card">
+                        <img class="rounded" src="./img/submarine.png" alt="">
                     </div>
                 </div>
             </div> 
         </div>
         <div class="about bg-green">
             <div class="container">
-                <div class="row">
+                <div class="row px-5">
                     <div class="col-12 text-white mb-4">
                         <h2 class="text-uppercase text-center rounded mt-5">about</h2>
                         <div class="star d-flex align-items-center justify-content-center">
@@ -112,10 +112,10 @@
                             <hr>
                         </div>
                     </div>
-                    <div class="col-12 col-md-6 text-white px-5 px-md-5">
+                    <div class="col-12 col-md-6 text-white">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat corporis sapiente vel magnam, soluta at ex neque fuga adipisci expedita maiores eveniet quaerat molestias odio ipsa. In optio tempore doloremque!
                     </div>
-                    <div class="col-12 col-md-6 text-white px-5 py-4 py-md-0 px-md-5">
+                    <div class="col-12 col-md-6 text-white mt-sm-4 mt-md-0">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat corporis sapiente vel magnam, soluta at ex neque fuga adipisci expedita maiores eveniet quaerat molestias odio ipsa. 
                     </div>
                     <div class="col-12 d-flex justify-content-center my-5 my-md-5">
@@ -127,31 +127,81 @@
 
         <div class="contact-me">
             <div class="container">
-                <div class="row">
-                  <div class="col-12 height-2">
+                <div class="row px-5 mb-5">
+                  <div class="col-12">
                     <h2 class="text-uppercase text-center rounded mt-5">contact me</h2>
                     <div class="star d-flex align-items-center justify-content-center">
                         <hr>
                         <i class="fa-solid fa-star mx-4"></i>
                         <hr>
                     </div>
+                    <form>
+                        <div class="mb-3">
+                            <label for="exampleInputEmail1" class="form-label">Name</label>
+                            <input type="email" class="form-control border-0 border-bottom" id="exampleInputEmail1" aria-describedby="emailHelp">
+                        </div>
+                        <div class="mb-3">
+                          <label for="exampleInputPassword1" class="form-label">Email Address</label>
+                          <input type="password" class="form-control border-0 border-bottom" id="exampleInputPassword1">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleInputPassword1" class="form-label">Phone Number</label>
+                            <input type="password" class="form-control border-0 border-bottom" id="exampleInputPassword1">
+                          </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                            <textarea class="form-control border-0 border-bottom" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          </div>
+                        <button type="submit" class="btn bg-green">Send</button>
+                      </form>
                   </div>  
                 </div>
             </div>
-        </div>
-                
-                    
-                    <div class="col-12 bg-gray height-2"></div>
-                    <div class="col-12 bg-darkblue height-1"></div>
-            
-        
-        
-    
+        </div>  
     </main>
     <!-- /#site_main -->
 
 
-    <footer id="site_footer"></footer>
+    <footer id="site_footer">
+        <div class="footer-top bg-gray">
+            <div class="container">
+                <div class="row py-5 text-white">
+                    <div class="col12 col-md-4 d-flex flex-column text-center">
+                        <span class="text-uppercase bold">location</span>
+                        <span>2215 Lorem, ipsum dolor, MO</span>
+                        <span>54235</span>
+                    </div>
+                    <div class="col12 col-md-4 d-flex flex-column text-center mt-sm-4 mt-md-0">
+                        <span class="text-uppercase bold">around the web</span>
+                        <div class="socials d-flex justify-content-center mt-2">
+                            <span class="social-circle mx-2">
+                                <i class="fa-brands fa-facebook-f fa-xl"></i>
+                            </span>
+                            <span class="social-circle mx-2">
+                                <i class="fa-brands fa-google-plus-g fa-lg"></i>
+                            </span>
+                            <span class="social-circle mx-2">
+                                <i class="fa-brands fa-twitter fa-xl"></i>
+                            </span>
+                            <span class="social-circle mx-2">
+                                <i class="fa-brands fa-linkedin-in fa-xl"></i>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="col12 col-md-4 d-flex flex-column text-center mt-sm-4 mt-md-0">
+                        <span class="text-uppercase bold">about a freelancer</span>
+                        <span>Lorem ipsum dolor sit amet consectetur.</span>
+                        <span>Bootstrap theme created by <a href="#">Start Bootstrap</a></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bot bg-darkblue text-center text-white py-5">
+            Copyright Your Website 2019
+        </div>
+
+    </footer>
     <!-- /#site_footer -->
 
 
